@@ -88,7 +88,7 @@
     <Phone>+33 1 43 16 30 30</Phone>
     <Address NearestAirport="CDG">
       <Number>15</Number>
-      <Street>Place Vendôme</Street>
+      <Street>Place Vendome</Street>
       <City>Paris</City>
       <State>Ile-de-France</State>
       <Zip>75001</Zip>
