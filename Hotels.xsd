@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- This defines the structure for the Address element -->
+  <xs:complexType name="AddressType">
+    <xs:sequence>
+      <!-- These elements must appear in this specific order -->
+      <xs:element name="Number" type="xs:string" />
+      <xs:element name="Street" type="xs:string" />
+      <xs:element name="City" type="xs:string" />
+      <xs:element name="State" type="xs:string" />
+      <xs:element name="Zip" type="xs:string" />
+    </xs:sequence>
+    <!-- NearestAirport is a required attribute for the Address element -->
+    <xs:attribute name="NearestAirport" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <!-- This defines the structure for a single Hotel element -->
+  <xs:complexType name="HotelType">
+    <xs:sequence>
+      <!-- Elements must appear in this order: Name, then Phone(s), then Address -->
+      <xs:element name="Name" type="xs:string" />
+      <!-- The Phone element can appear one or more times (unbounded) -->
+      <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" />
+      <xs:element name="Address" type="AddressType" />
+    </xs:sequence>
+    <!-- Rating is an optional attribute for the Hotel element -->
+    <xs:attribute name="Rating" type="xs:decimal" use="optional" />
+  </xs:complexType>
+
+  <!-- This is the root element of the document: Hotels -->
+  <xs:element name="Hotels">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- The Hotels element contains one or more Hotel elements -->
+        <xs:element name="Hotel" type="HotelType" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
