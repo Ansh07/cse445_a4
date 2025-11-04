@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This XML file is valid according to Hotels.xsd -->
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xsi:noNamespaceSchemaLocation="https://ansh07.github.io/cse445_a4/Hotels.xsd">
   
   <!-- Hotel 1: The example from the assignment PDF -->
   <Hotel Rating="4.2">
