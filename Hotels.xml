@@ -135,4 +135,17 @@
     </Address>
   </Hotel>
 
+<!-- Hotel 11: Italy -->
+<Hotel Rating="4.9">
+    <Name>Belmond Hotel Caruso</Name>
+    <Phone>+39 089 858 801</Phone>
+    <Address NearestAirport="NAP">
+      <Number>2</Number>
+      <Street>Piazza S. Giovanni del Toro</Street>
+      <City>Ravello</City>
+      <State>SA</State>
+      <Zip>84010</Zip>
+    </Address>
+  </Hotel>
+
 </Hotels>
