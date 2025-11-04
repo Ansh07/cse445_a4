@@ -74,7 +74,7 @@
     <Name>Claridge's</Name>
     <Phone>+44 20 7629 8860</Phone>
     <Address NearestAirport="LHR">
-      <Number></Number> <!-- No specific number for this address -->
+      <Number>007</Number>
       <Street>Brook Street</Street>
       <City>London</City>
       <State>England</State>
