@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- This XML file is valid according to Hotels.xsd -->
 <Hotels>
   
-  <!-- Hotel 1: The example from the assignment PDF -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -16,102 +14,21 @@
     </Address>
   </Hotel>
   
-  <!-- Hotel 2: Demonstrates an entry without the optional Rating attribute -->
-  <Hotel>
-    <Name>Hyatt Regency Phoenix</Name>
-    <Phone>602-252-1234</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>122 N 2nd St</Number>
-      <Street>N 2nd St</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85004</Zip>
+  <Hotel Rating="4.7">
+    <Name>Bellagio</Name>
+    <Phone>888-987-6667</Phone>
+    <Address NearestAirport="LAS">
+      <Number>3600</Number>
+      <Street>S Las Vegas Blvd</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
     </Address>
   </Hotel>
 
-  <!-- Hotel 3: Another valid entry -->
-  <Hotel Rating="4.5">
-    <Name>The Phoenician, a Luxury Collection Resort</Name>
-    <Phone>480-941-8200</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>6000</Number>
-      <Street>E Camelback Rd</Street>
-      <City>Scottsdale</City>
-      <State>AZ</State>
-      <Zip>85251</Zip>
-    </Address>
-  </Hotel>
-
-  <!-- Hotel 4: New York City, USA -->
-  <Hotel Rating="4.6">
-    <Name>The Plaza, A Fairmont Managed Hotel</Name>
-    <Phone>+1 212-759-3000</Phone>
-    <Address NearestAirport="JFK">
-      <Number>768</Number>
-      <Street>5th Ave</Street>
-      <City>New York</City>
-      <State>NY</State>
-      <Zip>10019</Zip>
-    </Address>
-  </Hotel>
-  
-  <!-- Hotel 5: Dubai, UAE (No rating to show optional attribute) -->
-  <Hotel>
-    <Name>Burj Al Arab Jumeirah</Name>
-    <Phone>+971 4 301 7777</Phone>
-    <Address NearestAirport="DXB">
-      <Number>Jumeirah St</Number>
-      <Street>Umm Suqeim 3</Street>
-      <City>Dubai</City>
-      <State>Dubai</State> <!-- State/Emirate -->
-      <Zip>00000</Zip> <!-- No standard zip codes -->
-    </Address>
-  </Hotel>
-
-  <!-- Hotel 6: London, UK -->
-  <Hotel Rating="4.8">
-    <Name>Claridge's</Name>
-    <Phone>+44 20 7629 8860</Phone>
-    <Address NearestAirport="LHR">
-      <Number>007</Number>
-      <Street>Brook Street</Street>
-      <City>London</City>
-      <State>England</State>
-      <Zip>W1K 4HR</Zip>
-    </Address>
-  </Hotel>
-
-  <!-- Hotel 7: Paris, France -->
-  <Hotel Rating="5.0">
-    <Name>The Ritz Paris</Name>
-    <Phone>+33 1 43 16 30 30</Phone>
-    <Address NearestAirport="CDG">
-      <Number>15</Number>
-      <Street>Place Vendome</Street>
-      <City>Paris</City>
-      <State>Ile-de-France</State>
-      <Zip>75001</Zip>
-    </Address>
-  </Hotel>
-
-  <!-- Hotel 8: Singapore (No rating) -->
-  <Hotel>
-    <Name>Marina Bay Sands</Name>
-    <Phone>+65 6688 8888</Phone>
-    <Address NearestAirport="SIN">
-      <Number>10</Number>
-      <Street>Bayfront Ave</Street>
-      <City>Singapore</City>
-      <State>Singapore</State>
-      <Zip>018956</Zip>
-    </Address>
-  </Hotel>
-
-  <!-- Hotel 9: Beverly Hills, USA -->
   <Hotel Rating="4.7">
     <Name>The Beverly Hills Hotel</Name>
-    <Phone>+1 310-276-2251</Phone>
-    <Phone>+1 800-283-0900</Phone>
+    <Phone>1-310-276-2251</Phone>
     <Address NearestAirport="LAX">
       <Number>9641</Number>
       <Street>Sunset Blvd</Street>
@@ -121,29 +38,101 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 10: Tokyo, Japan -->
-  <Hotel Rating="4.8">
-    <Name>Park Hyatt Tokyo</Name>
-    <Phone>+81 3-5322-1234</Phone>
-    <Address NearestAirport="HND">
-      <Number>3-7-1-2</Number>
-      <Street>Nishishinjuku</Street>
-      <City>Shinjuku City</City>
-      <State>Tokyo</State>
-      <Zip>163-1055</Zip>
+  <Hotel Rating="4.6">
+    <Name>Fairmont Copley Plaza</Name>
+    <Phone>1-617-267-5300</Phone>
+    <Address NearestAirport="BOS">
+      <Number>138</Number>
+      <Street>St James Ave</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02116</Zip>
+    </Address>
+  </Hotel>
+  
+  <Hotel>
+    <Name>The Drake</Name>
+    <Phone>1-312-787-2200</Phone>
+    <Address NearestAirport="ORD">
+      <Number>140</Number>
+      <Street>E Walton Pl</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
     </Address>
   </Hotel>
 
-<!-- Hotel 11: Italy -->
-<Hotel Rating="4.9">
-    <Name>Belmond Hotel Caruso</Name>
-    <Phone>+39 089 858 801</Phone>
-    <Address NearestAirport="NAP">
-      <Number>2</Number>
-      <Street>Piazza S. Giovanni del Toro</Street>
-      <City>Ravello</City>
-      <State>SA</State>
-      <Zip>84010</Zip>
+  <Hotel Rating="4.5">
+    <Name>Fontainebleau Miami Beach</Name>
+    <Phone>1-305-538-2000</Phone>
+    <Address NearestAirport="MIA">
+      <Number>4441</Number>
+      <Street>Collins Ave</Street>
+      <City>Miami Beach</City>
+      <State>FL</State>
+      <Zip>33140</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>The Ritz-Carlton, New Orleans</Name>
+    <Phone>1-504-524-1331</Phone>
+    <Address NearestAirport="MSY">
+      <Number>921</Number>
+      <Street>Canal St</Street>
+      <City>New Orleans</City>
+      <State>LA</State>
+      <Zip>70112</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Grand America Hotel</Name>
+    <Phone>1-801-258-6000</Phone>
+    <Phone>1-800-304-8696</Phone>
+    <Address NearestAirport="SLC">
+      <Number>555</Number>
+      <Street>S Main St</Street>
+      <City>Salt Lake City</City>
+      <State>UT</State>
+      <Zip>84111</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Four Seasons Hotel Seattle</Name>
+    <Phone>1-206-749-7000</Phone>
+    <Address NearestAirport="SEA">
+      <Number>99</Number>
+      <Street>Union St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98101</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.8">
+    <Name>The Hay-Adams</Name>
+    <Phone>1-202-638-6600</Phone>
+    <Address NearestAirport="DCA">
+      <Number>800</Number>
+      <Street>16th St NW</Street>
+      <City>Washington</City>
+      <State>DC</State>
+      <Zip>20006</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.8">
+    <Name>The Broadmoor</Name>
+    <Phone>1-719-634-7711</Phone>
+    <Phone>1-800-755-5011</Phone>
+    <Address NearestAirport="COS">
+      <Number>1</Number>
+      <Street>Lake Ave</Street>
+      <City>Colorado Springs</City>
+      <State>CO</State>
+      <Zip>80906</Zip>
     </Address>
   </Hotel>
 
